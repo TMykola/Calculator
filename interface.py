@@ -5,8 +5,8 @@ from PyQt5.QtCore import Qt
 
 app = QApplication([])
 window = QWidget()
-window.setWindowTitle("Калькулятор") 
 window.setFixedSize(320, 400)
+window.setWindowTitle("Калькулятор") 
 
 app.setStyleSheet("""
                   QWidget {background-color: #e4d9fe;}
